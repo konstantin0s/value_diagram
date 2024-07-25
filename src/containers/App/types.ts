@@ -6,6 +6,7 @@ type AppContainer = LoadingState;
 
 export type LoadingState = {
   status: 'saving' | 'saved';
+  selectedNode: null | string;
 };
 
 type AppActions = ActionType<typeof actions>;

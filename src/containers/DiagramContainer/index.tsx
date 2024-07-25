@@ -7,8 +7,10 @@ import { useModelChange, useNodeSelect } from '../helpers/useDiagramHelpers';
 import useNodeAndLinkSaving from '../helpers/renderNodesAndLinks';
 import { initDiagram } from './diagramConfig';
 
-// DiagramContainer. It integrates a diagram visualization using the ReactDiagram
-//  component from the gojs-react library and a Dropdown component for node selection.
+/* DiagramContainer. It integrates a diagram visualization using the ReactDiagram
+ component from the gojs-react library and a Dropdown component for node selection.
+ The DiagramContainer is a functional React component that integrates a diagram visualization using the ReactDiagram component from the gojs-react library and a Dropdown component for node selection. It manages the state and interactions for the diagram, including node and link data, model changes, and node selection. It also handles the rendering of the diagram using the ReactDiagram component and the Dropdown component.
+*/
 
 const diagramStyle = { width: '100%', height: '600px' };
 
